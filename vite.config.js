@@ -21,7 +21,10 @@ export default defineConfig({
         name: "Bazar Online PWA",
         short_name: "Bazar",
         description: "Un e-commerce de confianza",
-        theme_color: "#ffffff",
+        start_url: "/",
+        display: "standalone",
+        background_color: "#ffffff",
+        theme_color: "#000000",
         icons: [
           {
             src: "windows11/SmallTile.scale-100.png",
