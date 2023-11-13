@@ -7,4 +7,4 @@ export const searchItems = (query) =>
   ));
 
 export const getItemById = (id) =>
-  Promise.resolve(products.find((product) => product.id === id));
+  Promise.resolve(products.find((product) => String(product.id) === id));

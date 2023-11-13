@@ -264,9 +264,9 @@
     "price": 2000,
     "stock": 10,
     "category": "Tecnología",
-    "image1": "",
-    "image2": "",
-    "image3": "",
+    "image1": "https://http2.mlstatic.com/D_NQ_NP_2X_663745-MLM44738912619_012021-F.webp",
+    "image2": "https://http2.mlstatic.com/D_NQ_NP_2X_799029-MLM44738909704_012021-F.webp",
+    "image3": "https://http2.mlstatic.com/D_NQ_NP_2X_684015-CBT53890449892_022023-F.webp",
     "score": 4.5
   },
   {
@@ -279,9 +279,9 @@
     "price": 1500,
     "stock": 10,
     "category": "Tecnología",
-    "image1": "https://http2.mlstatic.com/D_NQ_NP_2X_663745-MLM44738912619_012021-F.webp",
-    "image2": "https://http2.mlstatic.com/D_NQ_NP_2X_799029-MLM44738909704_012021-F.webp",
-    "image3": "https://http2.mlstatic.com/D_NQ_NP_2X_684015-CBT53890449892_022023-F.webp",
+    "image1": "https://http2.mlstatic.com/D_NQ_NP_2X_953092-MLM48763111538_012022-F.webp",
+    "image2": "https://http2.mlstatic.com/D_NQ_NP_2X_733919-MLM48763065931_012022-F.webp",
+    "image3": "https://http2.mlstatic.com/D_NQ_NP_2X_685213-MLM48763069940_012022-F.webp",
     "score": 4.0
   },
   {

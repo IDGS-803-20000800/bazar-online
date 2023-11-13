@@ -36,3 +36,14 @@ h1 {
   display: flex;
   align-items: center
 }	
+
+.image-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.image-container img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
