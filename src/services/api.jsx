@@ -1,9 +1,10 @@
-import axios from 'axios';
-
-const BASE_URL = '/api';
+import products from './products.json';
 
 export const searchItems = (query) =>
-  axios.get(`${BASE_URL}/items?q=${query}`).then((response) => response.data);
+  Promise.resolve(products.filter((product) =>
+    product.title.toLowerCase().includes(query.toLowerCase()) ||
+    product.description.toLowerCase().includes(query.toLowerCase())
+  ));
 
 export const getItemById = (id) =>
-  axios.get(`${BASE_URL}/items/${id}`).then((response) => response.data);
+  Promise.resolve(products.find((product) => product.id === id));
